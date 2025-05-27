@@ -1,0 +1,48 @@
+body, html{height:100%}
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+}
+.main{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    background-color: rgb(124, 124, 124);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+}
+.switch{
+    width: 10%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 30%;
+}
+.link{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    padding-top: 2%;
+}
+.theme{
+    font-size: 1.3rem;
+    padding: 2%;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
